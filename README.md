@@ -95,8 +95,17 @@ The project uses six related datasets.
 reel_insights/
 │
 ├── data/
+│   ├── cast.csv
+│   ├── crew.csv
+│   ├── genres.csv
+│   ├── movie_genres.csv
+│   ├── movie_keywords.csv
+│   └── movies.csv
 │
-├── notebooks/
+├── 01_data_cleaning.ipynb
+├── 02_sql_analysis.ipynb
+├── 03_pandas_analysis.ipynb
+├── 04_visualizations.ipynb
 │
 ├── app.py
 ├── reel_insights.db
@@ -110,7 +119,7 @@ reel_insights/
 ### Step 1: Clone the Repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/priyaProject/reel-insights.git
 ```
 
 ### Step 2: Navigate to the Project Folder
